@@ -1,0 +1,9 @@
+{
+  "name": "helloGulp",
+  "version": "0.0.1",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-htmlincluder": "^0.1.0"
+  }
+}
