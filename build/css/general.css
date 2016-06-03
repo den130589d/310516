@@ -1,0 +1,27 @@
+body{
+	background-color: black;
+	color: white;
+	font-size: 20px;
+}
+
+.box{
+	border-radius: 50px;
+	background: linear-gradient(to left, red 30%, green 60%, blue 90%);
+}
+
+.box:hover{
+	transition: background 1s ease;
+}
+/*
+
+this is a comment
+
+ */
+img{
+	filter: blur(20px);
+}
+
+.shadow{
+	box-shadow: 10px 10px 20px red;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJnZW5lcmFsLmNzcyJdLCJzb3VyY2VzQ29udGVudCI6WyJib2R5e1xyXG5cdGJhY2tncm91bmQtY29sb3I6IGJsYWNrO1xyXG5cdGNvbG9yOiB3aGl0ZTtcclxuXHRmb250LXNpemU6IDIwcHg7XHJcbn1cclxuXHJcbi5ib3h7XHJcblx0Ym9yZGVyLXJhZGl1czogNTBweDtcclxuXHRiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQodG8gbGVmdCwgcmVkIDMwJSwgZ3JlZW4gNjAlLCBibHVlIDkwJSk7XHJcbn1cclxuXHJcbi5ib3g6aG92ZXJ7XHJcblx0dHJhbnNpdGlvbjogYmFja2dyb3VuZCAxcyBlYXNlO1xyXG59XHJcbi8qXHJcblxyXG50aGlzIGlzIGEgY29tbWVudFxyXG5cclxuICovXHJcbmltZ3tcclxuXHRmaWx0ZXI6IGJsdXIoMjBweCk7XHJcbn1cclxuXHJcbi5zaGFkb3d7XHJcblx0Ym94LXNoYWRvdzogMTBweCAxMHB4IDIwcHggcmVkO1xyXG59Il0sImZpbGUiOiJnZW5lcmFsLmNzcyIsInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9 */

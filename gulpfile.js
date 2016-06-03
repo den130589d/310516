@@ -6,6 +6,8 @@ var livereload = require('gulp-livereload');
 var cleanCss = require('gulp-clean-css');
 var autoprefixer = require('gulp-autoprefixer');
 
+var sourcemaps = require('gulp-sourcemaps');
+
 gulp.task('missionZero', function(){
 	connect.server({
 		root: 'build/',
@@ -15,9 +17,9 @@ gulp.task('missionZero', function(){
 
 
 
-
 gulp.task('missionOne', function(){
 	gulp.src('dev/*.css')
+	.pipe(sourcemaps.init())
 	.pipe(concatCss('style.css'))
 	.pipe(autoprefixer({
 		browsers: ['> 5%', 'IE 7'],
@@ -26,8 +28,10 @@ gulp.task('missionOne', function(){
 	.pipe(cleanCss({
 		compability: 'ie8'
 	}))
+	.pipe(sourcemaps.write())
 	.pipe(gulp.dest('build/css/'))
 	.pipe(connect.reload());
+
 
 	
 });

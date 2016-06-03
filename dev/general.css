@@ -5,10 +5,12 @@ body{
 }
 
 .box{
+	background-color: green;
 	border-radius: 50px;
 	background: linear-gradient(to left, red 30%, green 60%, blue 90%);
 }
 
+}
 .box:hover{
 	transition: background 1s ease;
 }
@@ -23,4 +25,13 @@ img{
 
 .shadow{
 	box-shadow: 10px 10px 20px red;
+}
+
+
+.box{
+	background-color: blue;
+}
+p{
+	font-size: 30px;
+}
 }
